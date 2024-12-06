@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Wiley</Company>
+    <Authors>WLS Dev Team</Authors>
+    <Copyright>Company Internal Use Only, No External Distribution Allowed</Copyright>
+    <Description>.NET library for creating a logger state with transaction Id following : https://confluence.wiley.com/pages/viewpage.action?spaceKey=WPPA&amp;title=Transaction+ID+pattern</Description>
+    <Version>5.0.0</Version>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <FileVersion>5.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+</Project>
